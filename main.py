@@ -51,7 +51,7 @@ print(age)
 age=str(age)
 print("Hello " + name + " your age is " + age)
 
-'''
+
 import math
 pi = -3.14
 #print(pi)
@@ -68,3 +68,4 @@ z = 3
 
 print(max(x,y,z))
 print(min(x,y,z))
+'''
