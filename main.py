@@ -39,9 +39,32 @@ print(x)
 print(int(y))
 print(int(z)*2)
 
-'''
+
 ######################
 
 name = input("what is your name - ")
+age = int(input("what is your age: "))
 
-print(name)
+print(type(age))
+age =age+1
+print(age)
+age=str(age)
+print("Hello " + name + " your age is " + age)
+
+'''
+import math
+pi = -3.14
+#print(pi)
+#print(round(pi))
+#print(math.ceil(pi))
+#print(math.floor(pi))
+#print(math.sqrt(pi))
+print(abs(pi))
+print(pow(pi, 3))
+
+x = 1
+y = 2
+z = 3
+
+print(max(x,y,z))
+print(min(x,y,z))
